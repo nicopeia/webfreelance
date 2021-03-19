@@ -1,0 +1,30 @@
+//
+
+
+
+// JSON DE ESTILO DE HEADER,
+
+ // {"background": "url(vistas/img/header-bg.jpg),center no-repeat fixed", "background-size": "cover",
+  //   "color":" #cfcfcf",
+  //   "position":"relative",
+  //   "height":"700px"}
+
+
+
+
+
+    // JSON DE ESTILO DE REDES SOCIALES,
+
+
+//{  "width": "63px", "height": "63px",
+  //  "position":" relative",
+  //  "animation":" fb 3.0s infinite",
+   // " transition":"all 1.5s ease-in"}
+   
+    
+  // JSON DE ESTILO DE BANNER
+
+   // {"background": " url(vistas/img/info.jpg),center no-repeat fixed", 
+  //"background-size": "cover",
+  // "height":"400px"}
+

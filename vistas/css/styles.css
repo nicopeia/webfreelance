@@ -1,0 +1,677 @@
+html{
+    scroll-behavior: smooth;
+}
+/* menu de navegacion
+==============================*/
+nav{
+    height: 90px;
+    background-color: rgb(49, 39, 39);
+    transition: 0.6s all;
+   
+}
+nav ul li a:hover{
+    background-color: rgba(65, 63, 60, 0.322);
+    transition: 0.8s all;
+}
+nav p {
+    color: white;
+    cursor: pointer;
+    font-size:26px;
+   letter-spacing: 1px;
+   font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav-link:hover{
+
+
+color: rgb(253, 245, 245);
+
+}
+nav.black{
+    background:rgba(0,0,0,.8);
+    height: 75px;
+   
+    transition: all 0.1s ease-in;
+    
+}
+#botonContacto:hover{
+    color: white;
+    text-decoration: none;
+
+}
+nav.logo:hover{
+    color:white;
+}
+
+
+nav.black .logo {
+    font-size: 25px;
+}
+.subtitulo{
+    font-size: 4rem;
+}
+/* HOME
+==============================*/
+header {
+	background: url(../img/header-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+    height: 700px;
+   
+}
+.intro-text {
+	position: relative;
+	padding-top: 200px;
+   
+	
+}
+.intro-text H1 {
+	font-size: 67px;
+	color: #eeeeee;
+    font-weight: 600;
+   color: rgb(245, 235, 235);
+   -webkit-box-reflect: below 1px linear-gradient(transparent,#0005)  ;
+}
+.color {
+    color: rgb(240, 10, 10);
+    font-weight: 700;
+   
+   
+}
+.btn-default {
+	color: #d43030;
+	font-family: 'Open Sans', sans-serif;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+
+
+
+.intro h1{
+
+    animation: humos 1s linear forwards;
+}
+@keyframes humos{
+0%{
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+}
+100%{
+    opacity: 1;
+    transform: rotatey(0deg);
+    filter: blur(0px);
+}
+}
+
+
+/* VIDEO  Section 
+==============================*/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+section.video i {
+    margin-right: 10px;
+    color: #323a45;
+    vertical-align: middle;
+    font-size: 50px;
+    -webkit-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+}
+section.video h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+section.video {
+    padding: 60px 0;
+    background-color: #f6f7f9;
+}
+section.video a {
+    color: #323a45
+}
+section.video a:hover, section.video a:focus {
+    color: #73d0da;
+    text-decoration: none;
+}
+section.video a:hover i, section.video a:focus i {
+    color: #73d0da
+}
+
+/*  Section IMAGEN FONDO
+==============================*/
+
+#restaurant-menu .section-title {
+	background: rgb(20, 20, 20) url(../img/info.jpg) center center no-repeat fixed;
+	background-size: cover;
+	height: 400px;
+}
+#menu1 .section-title1 {
+    background: rgba(0, 0, 0, 0.80) url(../img/homebg.jpg) center center no-repeat fixed;
+   
+	background-size: cover;
+	height: 400px;
+}
+
+
+/*=====================================
+  HIRE STYLES 
+    ===================================*/
+    #hire-sec {
+    
+        background: url(../img/hire.jpg) no-repeat center center;
+   
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    
+    
+    }
+        #hire-sec .overlay {
+            background:rgba(0, 0, 0, 0.80);
+            min-height:470px;
+        }
+    #hire-sec .form-control {
+        background-color:transparent;
+    }
+    
+    /*=====================================
+      FOOTER STYLES 
+        ===================================*/
+  
+
+
+    .social i{
+        font-size: 20px;
+        padding: 3%;
+        color: white;
+    }
+    .social i:hover{
+        color: red;
+    }
+   
+
+   #menu ul li a{
+
+    font-size: 17px;
+    padding: 25px;
+   }
+
+   .content h1{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: 'robotolight';
+}
+.content p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: 'robotolight';
+}
+
+
+/* Service2 Section */
+
+
+
+.service img{
+    height: 50px;
+}
+
+.service{
+    cursor: pointer;
+}
+
+.agrandar{
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes agrandar{
+from {
+transform: rotate(360deg);
+
+}
+to{
+    transform:scale(1.2) ;
+}
+}
+
+
+.whatsapp {
+    position:fixed;
+    width:45px;
+    height:45px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    text-decoration: none;
+  }
+  .whatsapp:hover{
+    position:fixed;
+    width:45px;
+    height:45px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    text-decoration: none;
+  }
+  
+  
+  .whatsapp-icon {
+    margin-top:2px;
+    margin-bottom: 8px;
+  }
+
+  hr {
+	
+	background: #030303;
+	
+}
+
+
+@media (max-width:991px){
+    .navbar ul li a {
+        background-color: black;
+        opacity: 0.6;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        height: 27px;
+        
+        
+    }
+  
+   
+    .navbar-toggler{
+        border-color: red;
+        background-color: red;
+    }
+}
+
+span.star  i{
+height: 50px;
+color: yellow;
+
+}
+
+
+.subir {
+    position:fixed;
+    width:45px;
+    height:45px;
+    bottom:20px;
+    right:75px;
+    background-color:#ee1a0b;
+    opacity: 2;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:1000;
+    text-decoration: none;
+  }
+  .subir:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fa-arrow-up {
+    margin-top:8px;
+  }
+
+#mundo{
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    box-shadow: 20px;
+    
+}
+.mundo{
+    position: relative;
+    animation: mundo 2s infinite;
+   transition: all 2s ease-in;
+
+}
+
+@keyframes mundo{
+    from {
+    transform: rotate(360deg);
+    
+}
+     
+    
+}
+
+
+
+.flecha{
+    width: 33px;
+    height: 33px;
+    
+   
+    
+}
+
+.flecha{
+    position: relative;
+    animation: flecha 2.0s infinite;
+    transition: all 0.5s ease-in;
+
+}
+
+@keyframes flecha{
+   from{
+   
+    margin-left: 80px;
+   }
+    
+    
+  
+    
+}
+
+
+
+
+@keyframes fb{
+    from{
+     transform: rotate(360deg);
+    }
+     
+     
+ 
+      
+     
+ }
+ .card{
+  
+    background: linear-gradient(to right,transparent, #f15454);
+  
+}
+
+
+
+
+ .card-body{
+     box-shadow: 0px  20px 30px  black;
+     background: linear-gradient(to right,transparent, #ff9494);
+ }
+
+/* Service2 Section #mundo{
+    animation-name: mundo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+@keyframes mundo{
+from {
+ transform:rotate(1.0)
+}
+to{
+    transform:rotate(1.2) ;
+}
+}
+.imgpc{
+    transition: all 0.5s linear;
+    cursor: pointer;
+
+}
+
+
+
+.imgpc{
+    animation-name: imgpc;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+.imgpc:hover{
+    
+     transform: rotate(360deg);
+     margin-top: 150px;
+  
+    }
+
+
+
+
+
+.box{
+    align-self: center;
+   display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+    margin-left: 300px;
+}
+@keyframes animate {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+
+.box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent,#0004);
+   
+
+}
+
+.box span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+*/
+
+.intro-text a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    color: #feffff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5;
+    letter-spacing: 3px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005)  ;
+    text-decoration: none;
+}
+
+nav.black{
+    background:rgba(0,0,0,.8);
+    height: 100px;
+   
+    transition:0.6s all  ease-in;
+    
+}
+
+
+
+
+nav.black .logo {
+    font-size: 25px;
+}
+.intro-text a:nth-child(1){
+filter: hue-rotate(290deg);
+}
+.intro-text a:nth-child(3){
+    filter: hue-rotate(110deg);
+}
+/*
+.intro-text {
+    background: linear-gradient(transparent,rgb(255, 73, 73));
+    color: white;
+    box-shadow: 0px 0px 5px  rgb(255, 104, 104),
+    0px 0px 25px  rgb(255, 104, 104),
+    0px 0px 50px  rgb(255, 104, 104),
+    0px 0px 70px  rgb(255, 104, 104);
+    height: 700px;
+    
+}*/
+.intro-text a{
+    background: linear-gradient(transparent,rgb(255, 73, 73));
+    color: white;
+    box-shadow: 0px 0px 5px  rgb(255, 104, 104),
+    0px 0px 25px  rgb(255, 104, 104),
+    0px 0px 50px  rgb(255, 104, 104),
+    0px 0px 70px  rgb(255, 104, 104);
+  
+}
+
+.intro-text a span{
+    position: absolute;
+    display: block;
+}
+.intro-text p{
+    font-size: 30px;
+}
+   
+.intro-text a span:nth-child(1){
+top:0;
+left: -100%;
+width: 100%;
+height: 2px;
+background: linear-gradient(90deg,transparent,rgb(238, 226, 226));
+animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.intro-text a span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(236, 220, 220));
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+    }
+    
+    @keyframes animate2{
+        0%{
+            top: -100%;
+        }
+        50%,100%{
+            top: 100%;
+        }
+    }
+    .intro-text a span:nth-child(3){
+        bottom:0;
+        right: -100;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent,rgb(224, 222, 222));
+        animation: animate3 1s linear infinite;
+        animation-delay: 0.5s;
+        }
+        
+        @keyframes animate3{
+            0%{
+                right: -100%;
+            }
+            50%,100%{
+                right: 100%;
+            }
+        }
+        .intro-text a span:nth-child(4){
+            bottom:-100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg,transparent,rgb(228, 221, 221));
+            animation: animate4 1s linear infinite;
+            animation-delay: 0.75s;
+            }
+            
+            @keyframes animate4{
+                0%{
+                    bottom: -100%;
+                }
+                50%,100%{
+                    bottom: 100%;
+                }
+            }
+
+            @media screen and (max-width: 280px) {
+
+                .logo {
+                 margin-right: 40px;
+                
+                  }
+                
+                  }
