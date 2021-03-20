@@ -82,6 +82,11 @@ if(nombre.value !== '' && er.test(email.value) !== '' && mensaje.value !== '' ){
     btnEnviar.disabled= true;
 }
 
+if(er.test(email.value) === false){
+    btnEnviar.disabled= true;
+    btnEnviar.classList.add('btn','btn-danger');
+
+}
 
 
 

@@ -9,6 +9,9 @@ require_once "./controladores/headerControlador.php";
 require_once "./controladores/redesControlador.php";
 require_once "./controladores/datosContactoControlador.php";
 require_once "./controladores/seccionesinfoControlador.php";
+require_once "./controladores/botonesControlador.php";
+
+
 
 require_once "./modelos/formularioModelo.php";
 require_once "./modelos/serviciosModelo.php";
@@ -17,6 +20,7 @@ require_once "./modelos/headerModelo.php";
 require_once "./modelos/redesModelo.php";
 require_once "./modelos/datosContactoModelo.php";
 require_once "./modelos/seccionesinfoModelo.php";
+require_once "./modelos/botonesModelo.php";
 
 
 

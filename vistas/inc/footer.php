@@ -87,7 +87,18 @@ foreach($datosContacto as $value){
         ';
     }
         ?>
+
+<?php
+      $botones = new botonesControlador();
+      $datosBotones=$botones->ctrbotonControlador();
+ 
+foreach($datosBotones as $value){   
+              echo ' 
         
-    <a  href="#home" class="subir" > <i class="fas fa-arrow-up "></i></a>
-    <a  href="https://wa.me/5491125320354?text=Hola!%20Estoy%20interesado%20en%20hacer%20una%20web!" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
+    <a  href='.$value["referencia"].' class='.$value["clase"].' > <i class='.$value["icono"].'></i></a>
+   
+   
+    ';
+}
+    ?>
     </section>
