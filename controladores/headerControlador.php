@@ -4,7 +4,7 @@ require_once "./modelos/headerModelo.php";
 
 
 
-class ControladorHeader {
+class ControladorHeader  {
 
 public function ctrHeader(){
 

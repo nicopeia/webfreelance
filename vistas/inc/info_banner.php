@@ -117,7 +117,16 @@ echo '
        
       <div style="background:'.$jsonBanner["background"].';background-size:'.$jsonBanner["background-size"].';height:'.$jsonBanner["height"].'">
     
+      <div class="text-center"> 
+      <div class="py-5 mt-4 text-center" style="position:relative">
+      <div class="text-center">
+      <label class="text-white" for="" style="font-size:40px">SUSCRIBITE A NUESTRAS PROMOS</label> <hr>                       </div>
+      <br><input type="text" class="mt-5" style="width:500px;height:36px" placeholder="ingrese su correo.....">
+      <button type="button" class="btn btn-primary mb-2">Enviar</button>
+      </div>
+      </div>
       
+  </div>
          
     </div>  
         

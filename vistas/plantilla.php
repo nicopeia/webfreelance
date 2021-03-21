@@ -1,5 +1,5 @@
 <?php
-require_once "./modelos/conexion.php";
+
     
 require_once "./controladores/vistasControlador.php";
 $instanciaVistas = new vistasControlador();
